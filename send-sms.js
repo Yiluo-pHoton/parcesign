@@ -6,7 +6,7 @@ var client = require('twilio')(accountSid, authToken);
 client.messages.create({
 	to: "+18058860369",
 	from: "+18053015117",
-	body: "Your UPS package with tracking number from Pennsylvania has arrived. Please use the following link to provide signature to confirm it.",
+	body: "Your UPS package with tracking number ca911705 from Pennsylvania has arrived. Please use the following link to provide signature to confirm it: ",
 	mediaUrl: "https://cops.usdoj.gov/html/dispatch/06-2015/images/doorstep-packages.png",
 }, function(err, message) {
 	if(err) {
