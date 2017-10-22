@@ -1,0 +1,13 @@
+{
+    "name": "parcesign_scanner",
+    "version": "0.1.0",
+    "description": "This is the scanner for project parcesign. It will scan the package and inform the server of the arrival.",
+    "author": "Yiluo Li",
+    "main": "src/index.js",
+    "ruff": {
+        "dependencies": {
+            "tag-reader-pn532-uart": "*"
+        },
+        "version": 1
+    }
+}
